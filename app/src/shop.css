@@ -1,0 +1,40 @@
+.white-text{
+    color: white;
+}
+
+.card-price{
+    background-color:  #0275d8 ;
+
+}
+
+.price-status{
+    color: gray;
+    font-size: 0.85rem;
+ }
+
+ .card-game1{
+    background-color: #283541;
+    color: white;
+    border: 3px solid #283541;
+}
+
+ .card-game2{
+     background-color: white;
+ }
+
+ .pointer{
+     cursor: pointer;
+ }
+
+ .presentation-card{
+     margin-bottom: 1rem;
+     
+}
+
+ @media screen and (min-width: 768px){
+  
+    .presentation-card{
+     margin-bottom: 0rem;
+    }
+  
+  }

@@ -1,0 +1,192 @@
+.navbar-button{
+    background-color: white;
+    color: black !important;
+    border: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.15rem;
+
+
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+.card-white{
+    background-color: white;
+}
+.prices-text{
+    color: white;
+}
+
+.icon-gem{
+  color: white;
+  margin-left: 0.3rem;
+  font-size: 1rem; 
+}
+
+
+.navbar-title{
+    text-decoration: none !important;
+    color: white;
+}
+
+.profile-name{
+   text-align: center;
+}
+
+.number-text{
+ word-spacing: 1rem;
+}
+
+.icon-trophy {
+    color:  #5cb85c ;
+    margin-left: 0.3rem;
+    font-size: 1rem; 
+  }
+
+.icon-points {
+   color:  #0275d8 ;
+   margin-left: 0.3rem;
+   font-size: 1rem; 
+ }
+
+ .icon-heart {
+    color:  orangered ;
+    margin-left: 0.3rem;
+    font-size: 1rem; 
+  }
+
+
+.profile-status{
+    color: gray;
+ }
+.navbar{
+    background-color:black !important;
+
+}
+
+.card-game{
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+.list-group-item{
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border-color: rgb(46, 46, 46);
+}
+
+
+body{
+  background-color:    #121212;
+
+}
+.navbar-title{
+    font-size: 1.35rem;
+}
+
+
+
+
+
+
+
+
+
+.board {
+    clear: both;
+    float: none;
+  
+    overflow: hidden;
+  }
+  
+  .board .col {
+    float:left;
+    width:33.000012313133%;
+    height: 90px;
+    border: 1px solid #eee;
+    border-left:none;
+    cursor: pointer;
+    color:#fff;
+    font-size:60px;
+    background: #34495e;
+  }
+  .board .col:nth-child(3n+1) {
+    border-left: 1px solid #aaa;
+  }
+
+
+  .tic-tae-toe-button {
+    cursor: pointer;
+    padding:10px 30px;
+    background: #fff;
+    border:none;
+    color:#222;
+    font-size: 16px;
+    margin-top:15px;
+  }
+
+  .icon-text{
+    font-size: 1rem;
+  }
+  @media screen and (min-width: 768px){
+  
+   
+    
+    .icon-text{
+      font-size: 0.8rem;
+    }
+    .icon-trophy {
+      margin-left: 0.2rem;
+      font-size: 0.8rem; 
+    }
+  
+  .icon-points {
+     margin-left: 0.2rem;
+     font-size: 0.8rem; 
+   }
+  
+   .icon-heart {
+      margin-left: 0.2rem;
+      font-size: 0.8rem; 
+    }
+    .icon-gem{
+      margin-left: 0.2rem;
+      font-size: 0.8rem;
+    }
+  
+  }
+
+
+  @media screen and (min-width: 990px){
+  
+   
+    .icon-text{
+      font-size: 1rem;
+    }
+      
+    .icon-trophy {
+      margin-left: 0.3rem;
+      font-size: 1rem; 
+    }
+  
+  .icon-points {
+     margin-left: 0.3rem;
+     font-size: 1rem; 
+   }
+  
+   .icon-heart {
+      margin-left: 0.3rem;
+      font-size: 1rem; 
+    }
+    .icon-gem{
+      margin-left: 0.3rem;
+      font-size: 1rem;
+    }
+  
+  }

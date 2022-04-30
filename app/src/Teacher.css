@@ -1,0 +1,24 @@
+.teacher-input{
+    background-color: rgb(221, 221, 221);
+      height: 2.5rem;
+      color: rgb(90, 90, 90);
+      margin-bottom: 1rem;
+      padding-left: 0.4rem;
+      border: 0px solid white;
+      outline: none;
+}
+
+.teacher-input::placeholder{
+  
+      color: rgb(90, 90, 90);
+    
+}
+
+.icon-gems2{
+    color: black;
+    margin-left: 0.3rem;
+}
+
+.date-limit-text{
+    font-size: 0.9rem;
+}

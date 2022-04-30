@@ -1,0 +1,168 @@
+.redborrego-text{
+  color: white;
+  text-decoration: none;
+}
+
+.margin{
+  margin-top: 2rem;
+}
+
+.sign-up-label{
+  color: white;
+  font-weight: 500;
+}
+
+.loader {
+    border: 16px solid gray;
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin:auto;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position:absolute;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
+  
+  
+  
+  .continue-button{
+    font-size: 1rem !important;
+      height: 3rem;
+      background-color: blue;
+  
+  }
+
+  a{
+    text-decoration: none !important;
+    color: blue !important;
+
+  }
+  
+  
+  .container .continue-button{
+    background-color: blue;
+    font-size: 2rem;
+    border-color: blue  !important;
+  }
+  
+  .container .continue-button:hover{
+    background-color: blue;
+  
+  }
+  
+  label {
+      margin-top: 1rem;
+  }
+  
+  .pacient-check{
+    margin-left: 0.5rem ;
+  }
+  
+  .registro{
+    font-weight:500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+    .input-name{
+      background-color: rgb(68, 68, 68);
+      height: 2.5rem;
+      color: rgb(175, 175, 175);
+      margin-bottom: 1rem;
+      padding-left: 0.4rem;
+      border: 0px solid gray;
+  
+    }
+
+
+    .input-name:focus{
+      outline: none;
+  
+    }
+
+
+    .input-name::placeholder{
+      color: rgb(175, 175, 175);  
+    }
+    
+  
+    
+    
+    
+    
+    .vertical-center {
+      margin-top: 2rem;
+    }
+  
+   
+    .registro{
+      color: gray;
+    }
+    
+    
+  
+    #boton {
+        margin-top: 1.7rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+    
+  
+  
+  
+    @media screen and (min-width: 768px){
+  
+   
+    
+      
+      .vertical-center {
+        margin-top: 0rem;
+  
+        min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+        min-height: 100vh; /* These two lines are counted as one :-)       */
+        display: flex;
+        align-items: center;
+      }
+    }
+
+
+
+    select::-ms-expand { display: none; }
+select {
+    box-shadow:none;   
+    outline:none;      
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+    background-repeat: no-repeat;
+    
+   
+}
